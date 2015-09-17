@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnew" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonbegin"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Click here to begin" />
+
+        <TextView
+            android:id="@+id/clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonbegin"
+            android:layout_alignBottom="@+id/buttonbegin"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="42dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/wordtoanswer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonbegin"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/wordtoanswer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:inputType="textNoSuggestions|textVisiblePassword"
+            android:ems="10" />
+
+    </RelativeLayout>
+    
+
+</ScrollView>

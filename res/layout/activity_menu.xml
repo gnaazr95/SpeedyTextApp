@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.typetolearn_androidedition.Menu"
+    android:id="@+id/layoutmenu"
+    android:background="@drawable/speedytextupdatedmenu" >
+
+    <Button
+        android:id="@+id/PlayButton"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignLeft="@+id/SettingsButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:background="@android:color/transparent"
+         />
+
+    <Button
+        android:id="@+id/AboutButton"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ChangeSongButton"
+        android:layout_below="@+id/ChangeSongButton"
+        android:layout_marginTop="10dp" 
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/SettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_below="@+id/PlayButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/ChangeSongButton"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SettingsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
